@@ -22,7 +22,6 @@ while 1:
 	try:
 		  posts = t.GetFriendsTimeline()
 		  for p in posts:
-		  	print last
 		  	if last == 0:
 		  		last = p.id
 		  	if p.id > last:
