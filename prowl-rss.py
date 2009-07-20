@@ -27,6 +27,7 @@ while 1:
 					guids.append(e.guid)
 				elif e.guid not in guids:
 					prwl.add("RSS", e.title, "%s - %s" % (xml.feed.title, e.link))
+					guids.append(e.guid)
 					print("Sent: %s, %s" % (e.title, e.link))
 				else:
 					pass
