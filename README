@@ -10,6 +10,7 @@ Currently:
 		git clone git://github.com/jacobb/prowlpy.git
 
 2. Download dependencies
+		prowly -- need python-httplib2
 		prowl-twitter.py -- need python-twitter (apt-get install python-twitter)
 
 3. Edit file with your credentials
