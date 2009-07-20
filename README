@@ -4,6 +4,7 @@ Push Notification Support for iPhone/iPod touch using Prowl
 
 Currently:
 	twitter
+	RSS
 
 
 1. Download prowlpy from http://github.com/jacobb/prowlpy/tree (or my modification, http://github.com/omgmovieslol/prowlpy/tree/master)
