@@ -1,0 +1,21 @@
+Prowl Apps
+
+Push Notification Support for iPhone/iPod touch using Prowl
+
+Currently:
+	twitter
+
+
+1. Download prowlpy from http://github.com/jacobb/prowlpy/tree (or my modification, http://github.com/omgmovieslol/prowlpy/tree/master)
+		git clone git://github.com/jacobb/prowlpy.git
+
+2. Download dependencies
+		prowl-twitter.py -- need python-twitter (apt-get install python-twitter)
+
+3. Edit file with your credentials
+		apikey -- get/generate from prowl.weks.net
+
+4. Run
+		screen or background it
+
+
