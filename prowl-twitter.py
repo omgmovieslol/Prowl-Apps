@@ -25,11 +25,11 @@ while 1:
 		  	if last == 0:
 		  		last = p.id
 		  	if p.id > last:
-		  		print "Sent: %s: %s" % (p.user.screen_name, p.text)
+		  		print("Sent: %s: %s" % (p.user.screen_name, p.text))
 			  	prwl.add('Twitter',p.user.screen_name,p.text)
 			  	last = p.id
 	except Exception,msg:
-		  print msg
+		  print(msg)
 	
 	finally:
 		time.sleep(wait)

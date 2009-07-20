@@ -12,11 +12,13 @@ Currently:
 2. Download dependencies
 		prowly -- need python-httplib2
 		prowl-twitter.py -- need python-twitter (apt-get install python-twitter)
+		prowl-rss.py -- need python-feedparser (apt-get install python-feedparser)
 
 3. Edit file with your credentials
 		apikey -- get/generate from prowl.weks.net
 
 4. Run
 		screen or background it
+		python prowl-twitter.py & 
 
 
